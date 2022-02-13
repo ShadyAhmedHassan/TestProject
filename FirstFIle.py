@@ -17,7 +17,7 @@ Dic={'name': 'Ahmed',
      'age': 38,
      'frindes': ['Mohamed','Mostafa','Sameh']
     }
-print(Dic)
+print(Dic['name'])
 
 def SumNumbers():
     num1=10
@@ -37,3 +37,11 @@ def Welcome(*names):
     print('Welcome '+names[1])
 
 #Welcome('Ahmed','Mohamed','Ali')
+try:
+    x=50/5
+except:
+    print('error divide by zero')
+else:
+    print('True')
+finally:
+    print('Good')
