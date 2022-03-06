@@ -54,6 +54,6 @@ ColorsFile.close()
 
 TimesFile=open("G:\\Python\\Times.txt","a")
 TimesFile.write("ELMAGREB")
-
-#3:18
+TimesFile.close()
+#4:14
 
