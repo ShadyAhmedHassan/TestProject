@@ -46,14 +46,14 @@ else:
 finally:
     print('Good')
 
-ColorsFile=open("G:\\Python\\Colors.txt")
-
-for Color in ColorsFile.readlines():
-    print(Color)
-ColorsFile.close()
-
-TimesFile=open("G:\\Python\\Times.txt","a")
-TimesFile.write("ELMAGREB")
-TimesFile.close()
-#4:14
+# ColorsFile=open("G:\\Python\\Colors.txt")
+#
+# for Color in ColorsFile.readlines():
+#     print(Color)
+# ColorsFile.close()
+#
+# TimesFile=open("G:\\Python\\Times.txt","a")
+# TimesFile.write("ELMAGREB")
+# TimesFile.close()
+#4:42
 
